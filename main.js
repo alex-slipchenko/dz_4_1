@@ -1,8 +1,9 @@
 
-let box = '';
-for (let i = 20; i <= 30; i = i + 0.5) {
+const oneBaks = 40.5;
+let wallet = '';
+for (let i = 10; i <= 100; i = i + 10) {
 
-    box += `${i}${' '}`
+    wallet += `${'('}${i}${'$'}${' буде:'}${oneBaks * i}${'UA'}${')'}${'-'}`
 
 }
-console.log(box);
+console.log(wallet);
