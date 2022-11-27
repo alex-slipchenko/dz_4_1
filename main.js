@@ -1,23 +1,23 @@
 
-const oneBaks = 40.5;
-let wallet = '';
-for (let i = 10; i <= 100; i = i + 10) {
+// const oneBaks = 40.5;
+// let wallet = '';
+// for (let i = 10; i <= 100; i = i + 10) {
 
-    wallet += `${'('}${i}${'$'}${' буде:'}${oneBaks * i}${'UA'}${')'}${'-'}`
+//     wallet += `${'('}${i}${'$'}${' буде:'}${oneBaks * i}${'UA'}${')'}${'-'}`
 
-}
-console.log(wallet);
-// =================================================
-// const num = 80;
-// let rezult = '';
-// for (let i = 1; i <= 100; i++) {
-//     if (Math.pow(i, 2) < num) {
-//          rezult += `${' ('}${i*i}${')'}`
-         
-//     }
 // }
+// console.log(wallet);
+// =================================================
+const num = 80;
+let rezult = '';
+for (let i = 1; i <= 100; i++) {
+    if (Math.pow(i, 2) < num) {
+         rezult += `${' ('}${i*i}${')'}`
+         gi
+    }
+}
 
-// console.log(rezult);
+console.log(rezult);
 // =============================================
 // const f = 4;
 
