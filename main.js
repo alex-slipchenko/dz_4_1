@@ -1,4 +1,10 @@
+let box = '';
+for (let i = 20; i <= 30; i = i + 0.5) {
 
+    box += `${i}${' '}`
+
+}
+console.log(box);
 // const oneBaks = 40.5;
 // let wallet = '';
 // for (let i = 10; i <= 100; i = i + 10) {
@@ -8,16 +14,16 @@
 // }
 // console.log(wallet);
 // =================================================
-const num = 80;
-let rezult = '';
-for (let i = 1; i <= 100; i++) {
-    if (Math.pow(i, 2) < num) {
-         rezult += `${' ('}${i*i}${')'}`
-         gi
-    }
-}
+// const num = 80;
+// let rezult = '';
+// for (let i = 1; i <= 100; i++) {
+//     if (Math.pow(i, 2) < num) {
+//          rezult += `${' ('}${i*i}${')'}`
+//          gi
+//     }
+// }
 
-console.log(rezult);
+// console.log(rezult);
 // =============================================
 // const f = 4;
 
